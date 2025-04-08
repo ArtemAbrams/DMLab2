@@ -189,7 +189,7 @@ cluster_means = df.groupby('Cluster')[features].mean()
 # Побудова bar chart для візуалізації середніх значень ознак по кластерах
 cluster_means.plot(kind='bar', figsize=(10, 6))
 plt.title("Середні значення ознак для кожного кластеру")
-plt.xlabel("Кластер")
+plt.xlabel("Ім'я кластеру")
 plt.ylabel("Середнє значення")
 plt.legend(title="Ознаки")
 plt.show()
